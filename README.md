@@ -1,7 +1,26 @@
 # PKMagic
 
-Pharmacokinetics analysis software — interactive desktop GUI for population PK analysis.
-Example for MIPS 2026 bootcamp.
+PKMagic is an interactive desktop application for population pharmacokinetics (PK) analysis.
+It is primarily a **teaching tool** — the code is written with beginners in mind and is
+heavily commented to explain both the Python language concepts and the underlying PK science.
+
+It was built as a worked example for the MIPS 2026 bootcamp to show how a small, real-world
+scientific application is structured using PyQt5, pandas, NumPy, SciPy, and Matplotlib.
+
+## Code Structure
+
+The application is split into four short, focused files — each one is a good place to start reading:
+
+| File | What it does |
+|------|--------------|
+| `main.py` | Creates the Qt application and main window; good first read (~115 lines) |
+| `pk_data.py` | Loads the CSV, cleans data, runs NCA, and fits the compartment model |
+| `pk_tabs.py` | Qt tab widgets that embed the matplotlib plots |
+| `pk_plots.py` | Pure matplotlib drawing functions (no Qt — can be used in a notebook) |
+
+Every file contains inline comments explaining *why* each piece of code is written the way it is,
+including Python-specific concepts (list comprehensions, dataclasses, signals/slots, etc.) and
+pharmacokinetic concepts (NCA, lambda-z, AUC, one-compartment model).
 
 ## Features
 
