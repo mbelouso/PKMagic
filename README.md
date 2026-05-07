@@ -35,6 +35,8 @@ pharmacokinetic concepts (NCA, lambda-z, AUC, one-compartment model).
 
 All plot panels include a matplotlib navigation toolbar for zoom, pan, and save.
 
+![PKMagic — Covariate Analysis tab](PK_Magic_ScreenShot.png)
+
 ## Installation
 
 Requires [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
