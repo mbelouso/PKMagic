@@ -48,7 +48,7 @@ from scipy import stats                        # linregress for trend lines
 # Dictionaries map the numeric sex code (0/1) to a colour hex string and
 # a display label.  Using a dictionary means we only need to change the
 # colour in one place if we ever want to update it.
-SEX_COLORS = {1: '#2196F3', 0: '#E91E63'}   # blue = male, pink = female
+SEX_COLORS = {1: "#E221F3", 0: "#1EE92C"}   # blue = male, pink = female
 SEX_LABELS = {1: 'Male',    0: 'Female'}
 WT_CMAP    = 'viridis'   # colormap name for weight-coloured plots
 
